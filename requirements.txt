@@ -1,0 +1,64 @@
+# ============================================================================
+# REQUIREMENTS.TXT - Gesture Controlled Virtual Mouse
+# ============================================================================
+# This file contains all the Python packages required to run the
+# Gesture Controlled Virtual Mouse application.
+#
+# PYTHON VERSION: 3.11.9 (Optimized for compatibility)
+#
+# INSTALLATION INSTRUCTIONS:
+# Run the following command in your terminal:
+#   pip install -r requirements.txt
+#
+# OR install packages individually:
+#   pip install opencv-python mediapipe pyautogui numpy
+# ============================================================================
+
+# OpenCV - Computer vision library for video capture and image processing
+# Used for: Webcam access, image manipulation, displaying video feed
+# Version 4.10.0.84 - Fully compatible with Python 3.11.9
+opencv-python==4.10.0.84
+
+# MediaPipe - Google's framework for building ML pipelines
+# Used for: Hand tracking and landmark detection
+# Version 0.10.14 - Latest stable version compatible with Python 3.11.9
+mediapipe==0.10.14
+
+# PyAutoGUI - Cross-platform GUI automation library
+# Used for: Controlling mouse cursor and clicking
+# Version 0.9.54 - Latest stable version, fully compatible with Python 3.11.9
+pyautogui==0.9.54
+
+# NumPy - Fundamental package for scientific computing
+# Used for: Mathematical operations and distance calculations
+# Version 1.26.4 - Optimized for Python 3.11.9 with performance improvements
+numpy==1.26.4
+
+# ============================================================================
+# OPTIONAL DEPENDENCIES (Auto-installed with above packages)
+# ============================================================================
+# These are automatically installed as dependencies of the main packages:
+# - Pillow (required by PyAutoGUI)
+# - protobuf (required by MediaPipe)
+# - attrs (required by MediaPipe)
+# ============================================================================
+
+# ============================================================================
+# PLATFORM-SPECIFIC NOTES:
+# ============================================================================
+# Windows: All packages should install without issues
+# macOS: May require additional permissions for screen recording
+# Linux: May need to install additional dependencies:
+#   sudo apt-get install python3-tk python3-dev
+#   sudo apt-get install scrot  # For PyAutoGUI screenshot functionality
+# ============================================================================
+
+# ============================================================================
+# TROUBLESHOOTING:
+# ============================================================================
+# If you encounter installation errors:
+# 1. Upgrade pip: pip install --upgrade pip
+# 2. Install packages one by one to identify which one fails
+# 3. Check Python version (requires Python 3.7+)
+# 4. On Linux, you may need to install system packages first
+# ============================================================================

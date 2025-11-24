@@ -290,7 +290,7 @@ SYSTEM READY - GESTURE CONTROL ACTIVE
 ## Project Structure
 
 ```
-gesture-mouse/
+Virtual-Mouse/
 │
 ├── config.py                  # Configuration module (250+ lines)
 │   ├── Environment setup      # Warning suppression
@@ -324,20 +324,10 @@ gesture-mouse/
 │   └── Resource cleanup       # Memory and resource release
 │
 ├── requirements.txt           # Python dependencies with versions
-├── statement.md              # Detailed problem statement
 ├── README.md                 # This comprehensive documentation
-├── ARCHITECTURE.md           # Technical architecture details
 ├── PROJECT_REPORT.md         # Complete project report
 ├── .gitignore               # Git ignore patterns
-│
-├── logs/                     # Application logs (created at runtime)
-│   └── .gitkeep
-│
-├── screenshots/             # Screenshots for documentation
-│   └── .gitkeep
-│
-└── recordings/              # Video recordings (optional)
-    └── .gitkeep
+
 ```
 
 ### Module Description
@@ -383,23 +373,7 @@ gesture-mouse/
 - **Print Statements**: 200+ for detailed logging
 - **Modules**: 3 well-separated concerns
 - **Average Cyclomatic Complexity**: 5 (maintainable)
-
----
-
-### Main Interface
-```
-Coming Soon: Screenshot of main application window with hand tracking overlay
-```
-
-### Help Overlay
-```
-Coming Soon: Screenshot of help menu displaying all gestures
-```
-
-### Gesture Detection
-```
-Coming Soon: Screenshots showing each gesture type with visual indicators
-```
+  
 ---
 
 ## License
